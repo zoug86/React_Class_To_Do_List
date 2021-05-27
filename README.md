@@ -1,3 +1,5 @@
+Click here to view the app live: https://zoug86.github.io/to_do_list/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
