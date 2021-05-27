@@ -19,12 +19,18 @@ class NewTodoFrom extends Component {
 
     handleSubmit(evt) {
         evt.preventDefault();
-        this.props.addTask({ ...this.state, completed: false });
-        this.setState(
-            {
-                task: ''
-            }
-        )
+        console.log();
+        if (this.state.task !== '') {
+            this.props.addTask({ ...this.state, completed: false });
+            this.setState(
+                {
+                    task: ''
+                }
+            )
+        } else {
+            alert("Emtpty Task!");
+        }
+
     }
 
     render() {
